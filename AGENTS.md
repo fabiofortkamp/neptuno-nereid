@@ -34,6 +34,13 @@ tasks), **prerequisite**, **Waiting on**, **Available**, **Blocked**,
 - One prompt = one commit, 50/72 message format.
 - New significant decisions get an ADR (`docs/adr/NNNN-title.md`).
 
+## Interviews and grilling
+
+When interviewing the author (grilling, design sessions, clarifying
+questions), ask **one question at a time**, with a recommended answer, and
+wait for the reply before asking the next. This overrides skills that batch
+questions into rounds.
+
 ## Agent skills
 
 ### Issue tracker
