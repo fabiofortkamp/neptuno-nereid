@@ -6,8 +6,9 @@ app of the Neptuno family. House rules from the home repo
 
 ## Read first
 
-1. `spec.md` — goals, glossary, domain model, availability rules, roadmap.
-2. `docs/adr/` — why each decision was made. Don't reverse an accepted ADR
+1. `spec.md` — goals, domain model, availability rules, roadmap.
+2. `GLOSSARY.md` — domain terms.
+3. `docs/adr/` — why each decision was made. Don't reverse an accepted ADR
    silently: propose a new ADR that supersedes it.
 
 ## Domain language
@@ -49,9 +50,10 @@ Issues live in GitHub Issues on `fabiofortkamp/neptuno-nereid` (via `gh`). See `
 
 ### Domain docs
 
-Single-context: glossary in `spec.md` (or `GLOSSARY.md` once split out) + `docs/adr/`. See `docs/agents/domain.md`.
+Single-context: `GLOSSARY.md` + `docs/adr/`. See `docs/agents/domain.md`.
 
 ## Status
 
-Pre-code. Next: v0.1 walking skeleton (see `spec.md` roadmap). Commands will
+Pre-code. Next: v0.1 walking skeleton (see `spec.md` roadmap and the v0.1
+GitHub milestone), starting with the workspace scaffold. Commands will
 be documented here once the workspace is scaffolded.

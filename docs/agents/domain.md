@@ -4,7 +4,8 @@ How the engineering skills should consume this repo's domain documentation when 
 
 ## Before exploring, read these
 
-- **The `## Glossary` section of `spec.md`**: the canonical glossary for now. If a root `GLOSSARY.md` is created later, it supersedes that section (and `spec.md` should point to it).
+- **`GLOSSARY.md`** at the root: the canonical glossary.
+- **`spec.md`**: domain model, availability rules, roadmap.
 - **`docs/adr/`**: read ADRs that touch the area you're about to work in.
 
 If any of these don't exist, **proceed silently**. Don't flag their absence; don't suggest creating them upfront. The `/domain-modeling` skill (reached via `/grill-with-docs` and `/improve-codebase-architecture`) creates them lazily when terms or decisions actually get resolved.
@@ -15,7 +16,8 @@ Single-context repo (one domain, even though it is a pnpm monorepo):
 
 ```
 /
-├── spec.md                ← goals, glossary, domain model, roadmap
+├── GLOSSARY.md            ← domain terms
+├── spec.md                ← goals, domain model, roadmap
 ├── docs/adr/
 │   ├── 0001-daily-use-drives-scope.md
 │   └── ...

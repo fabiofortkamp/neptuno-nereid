@@ -15,6 +15,7 @@ defer and due dates) and adds two things:
 Design phase. No code yet. See:
 
 - [`spec.md`](spec.md): specification and roadmap
+- [`GLOSSARY.md`](GLOSSARY.md): domain terms
 - [`docs/adr/`](docs/adr/): architecture decision records
 
 ## Stack (planned)
