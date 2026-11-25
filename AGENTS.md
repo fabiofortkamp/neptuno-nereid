@@ -34,6 +34,16 @@ tasks), **prerequisite**, **Waiting on**, **Available**, **Blocked**,
 - One prompt = one commit, 50/72 message format.
 - New significant decisions get an ADR (`docs/adr/NNNN-title.md`).
 
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues on `fabiofortkamp/neptuno-nereid` (via `gh`). See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: glossary in `spec.md` (or `GLOSSARY.md` once split out) + `docs/adr/`. See `docs/agents/domain.md`.
+
 ## Status
 
 Pre-code. Next: v0.1 walking skeleton (see `spec.md` roadmap). Commands will
