@@ -20,4 +20,4 @@ This task app is **Nereid**: repo `neptuno-nereid`, packages under the
 
 - Room to name future apps (Proteus, Larissa, Galatea, …).
 - The npm name `neptuno` is taken by an empty package; the `@neptuno` scope
-  must be claimed before publishing anything.
+  was claimed instead as a free npm organization (2026-11-25).

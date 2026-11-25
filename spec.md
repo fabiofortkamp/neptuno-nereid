@@ -144,3 +144,4 @@ notifications, flags, time estimates.
 - 2026-11-25: Initial spec from the design grilling session: goals, glossary,
   domain model, availability rules, dependencies, repeats, architecture,
   roadmap. ADRs 0001–0010 added. No code yet.
+- 2026-11-25: Claimed the `@neptuno` npm scope (free organization).
